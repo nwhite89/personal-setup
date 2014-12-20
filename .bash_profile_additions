@@ -1,0 +1,10 @@
+CLICOLOR=1
+
+# Sets up the color scheme for list export
+LSCOLORS=gxfxcxdxbxegedabagacad
+
+# Enables color for iTerm
+export TERM=xterm-color
+
+source ~/.bashrc
+source ~/.profile

@@ -1,0 +1,14 @@
+# Pretty Git log
+alias gl='git log --graph --full-history --all --color         --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
+
+# Lists files and folders with Colour
+alias ls="ls -G"
+
+# Lists all files using ls ^ including hidden files
+alias ll="ls -lha"
+
+# venv activate
+alias envStart=". .venv/bin/activate"
+
+# Clean .pyc files from system
+alias delpyc="find . -name \*.pyc -exec rm \{\} \+"

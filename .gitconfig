@@ -1,0 +1,29 @@
+[user]
+	name = nickswhite89@gmail.com
+	email = nickswhite89@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+[core]
+	editor=vim
+	pager=less
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+[color "branch"]
+	current = yellow bold
+	local = blue
+	remote = red bold
+[color "diff"]
+	meta = blue
+	frag = yellow bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = green bold
+	changed = red bold
+	untracked = cyan
+[color "sh"]
+	branch = yellow
